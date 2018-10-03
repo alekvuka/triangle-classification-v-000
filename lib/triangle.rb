@@ -8,7 +8,7 @@ class Triangle
     @side_one = side_one.to_f
     @side_two = side_two.to_f
     @side_three = side_three.to_f
-    
+    binding.pry
   end
 
   def kind
