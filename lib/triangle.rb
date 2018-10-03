@@ -1,3 +1,5 @@
+require 'pry'
+
 class Triangle
 
   attr_accessor :side_one, :side_two, :side_three
@@ -6,6 +8,7 @@ class Triangle
     @side_one = side_one.to_f
     @side_two = side_two.to_f
     @side_three = side_three.to_f
+    
   end
 
   def kind
