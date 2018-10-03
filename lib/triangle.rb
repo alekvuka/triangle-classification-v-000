@@ -27,7 +27,7 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    puts 
+    puts
 
   end
 
